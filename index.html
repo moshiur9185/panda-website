@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Panda Commarce</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -26,9 +27,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Shoes</a>
-            <a class="nav-link" href="#">Bagpack</a>
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+            <a class="nav-link" href="#shoes">Shoes</a>
+            <a class="nav-link" href="#bags">Bagpack</a>
+            <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
           </div>
         </div>
       </div>
@@ -36,9 +37,9 @@
 
 
     <!-- navnar section ends here -->
-
-    <section class="bg-light rounded mt-5">
-      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <!-- carousel section starts here -->
+    <section>
+      <div id="carouselExampleInterval" class="carousel slide panda-slide mt-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
   
@@ -94,6 +95,7 @@
         </a>
       </div>
     </section>
+    <!-- carousal section ends here -->
 
   </header>
 
@@ -101,7 +103,7 @@
   <main class="container">
     <section class="container overflow-hidden mt-5">
 
-      <div class="row gx-5 ">
+      <div class="row g-5 ">
         <div class="col">
           <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around ">
             <h1 class="text-white">Watch</h1>
@@ -127,12 +129,12 @@
     <!-- end section -->
     <!-- shoes section start-->
 
-    <section class="mt-5">
+    <section id="shoes" class="mt-5">
       <h2>Shoes</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 ">
 
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card panda-card h-100 shadow">
             <img src="shoes/shoe-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Supply 350</h5>
@@ -140,26 +142,26 @@
                 content. This content is a little bit longer.</p>
             </div>
             <h5 class="ps-3">$120</h5>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button class="btn btn-warning">Buy Now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card panda-card h-100 shadow">
             <img src="shoes/shoe-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Nike 360</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
             <h5 class="ps-3">$320</h5>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button class="btn btn-warning">Buy Now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card panda-card h-100 shadow">
             <img src="shoes/shoe-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Red Airmax</h5>
@@ -169,7 +171,7 @@
             </div>
             <h5 class="ps-3">$350</h5>
 
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button class="btn btn-warning">Buy Now >></button>
             </div>
           </div>
@@ -180,12 +182,12 @@
     <!-- shoes section end  -->
     <!-- bag section starts here -->
 
-    <section class="mt-5">
+    <section id="bags" class="mt-5">
       <h2>Bagpack</h2>
       <div class="row row-cols-1 row-cols-md-3 g-4 ">
 
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card panda-card h-100 shadow">
             <img src="bags/bag-1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Red 470 bag</h5>
@@ -193,26 +195,26 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                 content. This content is a little bit longer.</p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button class="btn btn-warning">Buy Now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card panda-card h-100 shadow">
             <img src="bags/bag-2.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Blue 535 bag</h5>
               <h5>$350</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button class="btn btn-warning">Buy Now >></button>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100 shadow">
+          <div class="card panda-card h-100 shadow">
             <img src="bags/bag-3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Black 756 bag</h5>
@@ -220,7 +222,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                 content. This card has even longer content than the first to show that equal height action.</p>
             </div>
-            <div class="card-footer">
+            <div class="card-footer panda-card-footer">
               <button class="btn btn-warning">Buy Now >></button>
             </div>
           </div>
@@ -231,12 +233,12 @@
 
     <!-- bag section ends here  -->
 
-    <section  class="d-flex rounded bg-info justify-content-center align-items-center mt-5" style="height: 300px;">
+    <section id="subscribe"  class="d-flex rounded bg-info justify-content-center align-items-center mt-5" style="height: 300px;">
       <div>
         <h1>LET'S STAY IN TOUCH</h1>
         <h5>Get updates on sales, specials and more</h5>
         <input type="email" placeholder="Enter your email"><br>
-        <button class="bg-warning rounded">SUBMIT</button>
+        <button class="btn btn-warning rounded">SUBMIT</button>
       </div>
     </section>
 
